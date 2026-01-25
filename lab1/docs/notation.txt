@@ -1,0 +1,16 @@
+run section 1 in local:
+make
+"terminal A":
+cd server
+./server 6000
+"terminal B":
+cd deliver
+./deliver 127.0.0.1 6000
+
+run section 1 in ug:
+ug server:
+cd ~/ece361/lab1/server
+./server 6000  
+ug deliver:
+cd ~/ece361/lab1/deliver
+./deliver ug202.eecg.utoronto.ca 6000 
