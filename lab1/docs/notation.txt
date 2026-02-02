@@ -6,6 +6,7 @@ cd server
 "terminal B":
 cd deliver
 ./deliver 127.0.0.1 6000
+when saying Enter message, enter ftp test.txt
 
 run section 1 in ug:
 ug server:
